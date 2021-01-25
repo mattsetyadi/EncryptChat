@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="se.joscarsson.privify"
+    android:targetSandboxVersion="2"
+    android:versionCode="7"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="se.joscarsson.privify.PrivifyApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="se.joscarsson.privify.ui.MainActivityPri"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+                <data android:mimeType="video/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="se.joscarsson.privify.ui.PassphraseActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name="se.joscarsson.privify.ui.DirectoryChooserActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name="se.joscarsson.privify.ui.SettingsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" >
+        </activity>
+
+        <provider
+            android:name="se.joscarsson.privify.GenericFileProvider"
+            android:authorities="se.joscarsson.privify.provider.se.joscarsson.privify"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

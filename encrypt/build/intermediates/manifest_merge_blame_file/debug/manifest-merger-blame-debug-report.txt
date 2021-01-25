@@ -1,0 +1,107 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="se.joscarsson.privify"
+4    android:versionCode="1"
+5    android:versionName="1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:3:5-80
+11-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:3:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:4:5-81
+12-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:4:22-78
+13
+14    <application
+14-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:5:5-49:19
+15        android:name="se.joscarsson.privify.PrivifyApplication"
+15-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:9:9-64
+16        android:allowBackup="true"
+16-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:6:9-35
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:7:9-43
+18        android:label="@string/app_name"
+18-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:8:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:10:9-54
+20        android:supportsRtl="true"
+20-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:11:9-35
+21        android:theme="@style/AppTheme" >
+21-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:12:9-40
+22        <activity
+22-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:13:9-24:20
+23            android:name="se.joscarsson.privify.ui.MainActivityPri"
+23-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:14:13-47
+24            android:configChanges="orientation|keyboardHidden|screenSize"
+24-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:16:13-74
+25            android:launchMode="singleTask" >
+25-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:15:13-44
+26            <intent-filter>
+26-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:18:13-23:29
+27                <action android:name="android.intent.action.SEND" />
+27-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:19:17-69
+27-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:19:25-66
+28
+29                <category android:name="android.intent.category.DEFAULT" />
+29-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:20:17-76
+29-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:20:27-73
+30
+31                <data android:mimeType="image/*" />
+31-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:21:17-52
+31-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:21:23-49
+32                <data android:mimeType="video/*" />
+32-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:21:17-52
+32-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:21:23-49
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:25:9-29:20
+36            android:name="se.joscarsson.privify.ui.PassphraseActivity"
+36-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:26:13-50
+37            android:configChanges="orientation|keyboardHidden|screenSize"
+37-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:28:13-74
+38            android:noHistory="true" >
+38-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:27:13-37
+39        </activity>
+40        <activity
+40-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:30:9-34:20
+41            android:name="se.joscarsson.privify.ui.DirectoryChooserActivity"
+41-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:31:13-56
+42            android:configChanges="orientation|keyboardHidden|screenSize"
+42-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:33:13-74
+43            android:noHistory="true" >
+43-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:32:13-37
+44        </activity>
+45        <activity
+45-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:35:9-38:20
+46            android:name="se.joscarsson.privify.ui.SettingsActivity"
+46-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:36:13-48
+47            android:configChanges="orientation|keyboardHidden|screenSize" >
+47-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:37:13-74
+48        </activity>
+49
+50        <provider
+50-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:39:9-48:20
+51            android:name="se.joscarsson.privify.GenericFileProvider"
+51-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:40:13-48
+52            android:authorities="se.joscarsson.privify.provider.dollar_openBracket_applicationId_closeBracket"
+52-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:41:13-82
+53            android:exported="false"
+53-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:42:13-37
+54            android:grantUriPermissions="true" >
+54-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:43:13-47
+55            <meta-data
+55-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:44:13-47:15
+56                android:name="android.support.FILE_PROVIDER_PATHS"
+56-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:45:17-67
+57                android:resource="@xml/provider_paths" />
+57-->C:\ams\EncryptChat\encrypt\src\main\AndroidManifest.xml:46:17-55
+58        </provider>
+59    </application>
+60
+61</manifest>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImageViewerActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        style="@style/Base.DialogWindowTitle.AppCompat"
+        android:background="@color/colorPrimary"
+        android:elevation="10dp"
+        tools:ignore="UnusedAttribute"/>
+
+    <ImageView
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/image_viewer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/crop_image_menu_flip">
+
+
+
+
+
+    </ImageView>
+
+</RelativeLayout>

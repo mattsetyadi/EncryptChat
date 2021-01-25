@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/encrypt"
+        android:title="Encrypt or Decrypt"
+        app:showAsAction="never">
+
+    </item>
+
+    <item
+        android:id="@+id/main_find_friends_option"
+        android:title="Find Friends"
+        app:showAsAction="never">
+
+    </item>
+    <item
+        android:title="Create Group"
+        android:id="@+id/main_create_group_option"
+        app:showAsAction="never"
+        >
+
+    </item>
+    <item
+        android:title="Settings"
+        android:id="@+id/main_settings_option"
+        app:showAsAction="never"
+        >
+
+    </item>
+    <item
+        android:title="Log Out"
+        android:id="@+id/main_logout_option"
+        app:showAsAction="never"
+        >
+
+
+    </item>
+
+
+
+
+</menu>

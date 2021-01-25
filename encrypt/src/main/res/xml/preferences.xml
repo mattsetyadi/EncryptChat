@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="auto_lock_enabled"
+        android:summary="Whether the app should auto-lock or not when it has been inactive for a while."
+        android:title="Auto-lock" />
+    <EditTextPreference
+        android:defaultValue="5"
+        android:inputType="number"
+        android:key="auto_lock_delay_minutes"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="Number of minutes before auto-lock is engaged. "
+        android:title="Auto-lock delay" />
+    <Preference
+        android:key="share_target_directory"
+        android:title="Share target directory"
+        android:summary="The directory to encrypt to if file is shared to Privify.">
+        <intent
+            android:targetPackage="se.joscarsson.privify"
+            android:targetClass="se.joscarsson.privify.DirectoryChooserActivity" />
+    </Preference>
+</PreferenceScreen>

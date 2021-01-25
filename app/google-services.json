@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "417909807664",
+    "firebase_url": "https://encryptchat-6fd84.firebaseio.com",
+    "project_id": "encryptchat-6fd84",
+    "storage_bucket": "encryptchat-6fd84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417909807664:android:707c99de51b1702a57ebf5",
+        "android_client_info": {
+          "package_name": "com.setyadi.encryptchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417909807664-4h3298786v5ma4uc5i4l1hcgvtfv7u76.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.setyadi.encryptchat",
+            "certificate_hash": "236a4f8a1eb1c4b260712f56c7a58293ad160d45"
+          }
+        },
+        {
+          "client_id": "417909807664-9d3204464rt6qi37jtkqdjc5fi78jldg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRm8n-RuDlM8fHBDfx0seUlsYa1_nsZdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417909807664-9d3204464rt6qi37jtkqdjc5fi78jldg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

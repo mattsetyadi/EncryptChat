@@ -1,0 +1,110 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="se.joscarsson.privify.test" >
+4
+5    <uses-sdk
+5-->C:\ams\EncryptChat\encrypt\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5356483114113865520.xml:5:5-74
+6        android:minSdkVersion="23"
+6-->C:\ams\EncryptChat\encrypt\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5356483114113865520.xml:5:15-41
+7        android:targetSdkVersion="29" />
+7-->C:\ams\EncryptChat\encrypt\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5356483114113865520.xml:5:42-71
+8
+9    <instrumentation
+9-->C:\ams\EncryptChat\encrypt\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5356483114113865520.xml:11:5-15:76
+10        android:name="android.test.InstrumentationTestRunner"
+10-->C:\ams\EncryptChat\encrypt\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5356483114113865520.xml:11:22-75
+11        android:functionalTest="false"
+11-->C:\ams\EncryptChat\encrypt\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5356483114113865520.xml:14:22-52
+12        android:handleProfiling="false"
+12-->C:\ams\EncryptChat\encrypt\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5356483114113865520.xml:13:22-53
+13        android:label="Tests for se.joscarsson.privify.test"
+13-->C:\ams\EncryptChat\encrypt\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5356483114113865520.xml:15:22-74
+14        android:targetPackage="se.joscarsson.privify.test" />
+14-->C:\ams\EncryptChat\encrypt\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5356483114113865520.xml:12:22-72
+15
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-80
+16-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-81
+17-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-78
+18
+19    <application
+19-->C:\ams\EncryptChat\encrypt\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5356483114113865520.xml:7:5-9:19
+20        android:name="se.joscarsson.privify.PrivifyApplication"
+20-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-64
+21        android:allowBackup="true"
+21-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.0.0] C:\Users\rog\.gradle\caches\transforms-2\files-2.1\8ef0dd1b827b6b28c1e9211227fa2d4c\core-1.0.0\AndroidManifest.xml:22:18-86
+23        android:debuggable="true"
+23-->C:\ams\EncryptChat\encrypt\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5356483114113865520.xml:7:18-43
+24        android:icon="@mipmap/ic_launcher"
+24-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-43
+25        android:label="@string/app_name"
+25-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:9-54
+27        android:supportsRtl="true"
+27-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:9-35
+28        android:theme="@style/AppTheme" >
+28-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:9-40
+29        <uses-library android:name="android.test.runner" />
+29-->C:\ams\EncryptChat\encrypt\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5356483114113865520.xml:8:9-60
+29-->C:\ams\EncryptChat\encrypt\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5356483114113865520.xml:8:23-57
+30
+31        <activity
+31-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-26:20
+32            android:name="se.joscarsson.privify.ui.MainActivityPri"
+32-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-68
+33            android:configChanges="orientation|keyboardHidden|screenSize"
+33-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-74
+34            android:launchMode="singleTask" >
+34-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-44
+35        </activity>
+36        <activity
+36-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-31:20
+37            android:name="se.joscarsson.privify.ui.PassphraseActivity"
+37-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-71
+38            android:configChanges="orientation|keyboardHidden|screenSize"
+38-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-74
+39            android:noHistory="true" >
+39-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-37
+40        </activity>
+41        <activity
+41-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:9-36:20
+42            android:name="se.joscarsson.privify.ui.DirectoryChooserActivity"
+42-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-77
+43            android:configChanges="orientation|keyboardHidden|screenSize"
+43-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-74
+44            android:noHistory="true" >
+44-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-37
+45        </activity>
+46        <activity
+46-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:9-40:20
+47            android:name="se.joscarsson.privify.ui.SettingsActivity"
+47-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-69
+48            android:configChanges="orientation|keyboardHidden|screenSize" >
+48-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-74
+49        </activity>
+50
+51        <provider
+51-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:9-50:20
+52            android:name="se.joscarsson.privify.GenericFileProvider"
+52-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-69
+53            android:authorities="se.joscarsson.privify.provider.se.joscarsson.privify.test"
+53-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-82
+54            android:exported="false"
+54-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-37
+55            android:grantUriPermissions="true" >
+55-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-47
+56            <meta-data
+56-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:13-49:58
+57                android:name="android.support.FILE_PROVIDER_PATHS"
+57-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:17-67
+58                android:resource="@xml/provider_paths" />
+58-->[__tested_artifact__::encrypt] C:\ams\EncryptChat\encrypt\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:17-55
+59        </provider>
+60    </application>
+61
+62</manifest>

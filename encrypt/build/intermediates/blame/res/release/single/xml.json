@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\ams\\privify\\app\\build\\intermediates\\res\\merged\\release\\xml\\provider_paths.xml",
+        "source": "C:\\ams\\privify\\app\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\ams\\privify\\app\\build\\intermediates\\res\\merged\\release\\xml\\preferences.xml",
+        "source": "C:\\ams\\privify\\app\\src\\main\\res\\xml\\preferences.xml"
+    }
+]
